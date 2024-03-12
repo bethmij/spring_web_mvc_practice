@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Spring-Web-MVC-Practice:war exploded" />
+      <artifact name="hello-spring-web-mvc:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add responsive servlet">
-      <change afterPath="$PROJECT_DIR$/hello-spring-web-mvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/WebAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/WebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/WebRootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/WebRootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/bean/HelloWebMVC.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/bean/HelloWebMVC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/bean/SpringBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/bean/SpringBean.java" afterDir="false" />
+    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="refactor modules">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +56,15 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/bethmij/IJSE/Projects/Spring-Web-MVC-Practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
@@ -180,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710219022616</updated>
       <workItem from="1710219024134" duration="2542000" />
-      <workItem from="1710222509770" duration="2528000" />
+      <workItem from="1710222509770" duration="3717000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
@@ -246,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710228810716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor modules">
+      <option name="closed" value="true" />
+      <created>1710229289276</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710229289277</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor modules">
+      <option name="closed" value="true" />
+      <created>1710229366122</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710229366123</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +273,7 @@
     <MESSAGE value="add spring bean" />
     <MESSAGE value="add webapps" />
     <MESSAGE value="add responsive servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="add responsive servlet" />
+    <MESSAGE value="refactor modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor modules" />
   </component>
 </project>
