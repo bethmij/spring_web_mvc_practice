@@ -9,9 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add webapps">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/bean/HelloWebMVC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add responsive servlet">
+      <change afterPath="$PROJECT_DIR$/hello-spring-web-mvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/WebAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/WebRootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/WebRootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/bean/HelloWebMVC.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/bean/HelloWebMVC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/spring/bean/SpringBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/lk.ijse.gdse66/spring/bean/SpringBean.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +60,7 @@
     "Tomcat Server.Tomcat 10.1.19.executor": "Run",
     "Tomcat Server.Unnamed.executor": "Run",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,7 +80,7 @@
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Spring-Web-MVC-Practice:war exploded">
+        <artifact name="hello-spring-web-mvc:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/spring" />
           </settings>
@@ -154,7 +160,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Spring-Web-MVC-Practice:war exploded" />
+          <artifact name="hello-spring-web-mvc:war exploded" />
         </option>
       </method>
     </configuration>
@@ -168,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710219022616</updated>
       <workItem from="1710219024134" duration="2542000" />
-      <workItem from="1710222509770" duration="2235000" />
+      <workItem from="1710222509770" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
@@ -226,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710227582380</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add responsive servlet">
+      <option name="closed" value="true" />
+      <created>1710228810716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710228810716</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +255,7 @@
     <MESSAGE value="add WebRootConfig" />
     <MESSAGE value="add spring bean" />
     <MESSAGE value="add webapps" />
-    <option name="LAST_COMMIT_MESSAGE" value="add webapps" />
+    <MESSAGE value="add responsive servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="add responsive servlet" />
   </component>
 </project>
