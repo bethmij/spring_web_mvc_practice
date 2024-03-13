@@ -40,4 +40,25 @@ public class MappingSpecController {
         return "getMethod 5";
     }
 
+/*-------------  wild card mapping -----------------*/
+
+//    @GetMapping("/ijse/galle/*")
+////    @GetMapping("/ijse/*/galle")
+////    @GetMapping("/ijse/*/*/galle")
+//    public String getMethod6(){
+//        return "getMethod 6";
+//    }
+
+    @GetMapping("/ijse/**" )
+//    @GetMapping("/ijse/**/galle")
+    public String getMethod7(){
+        return "getMethod 7";
+    }
+
+    @GetMapping("/bat*ch")
+    public String getMethod8(){
+        return "getMethod 8";
+    }
+
+
 }
