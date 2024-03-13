@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add x-www-form-urlencoded parameters">
+    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add SupplierDTO">
+      <change afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/SupplierController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapping-spec/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-spec/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +83,7 @@
       <recent name="$PROJECT_DIR$/hello-spring-web-mvc/src/main/java/org/example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.gdse66.api" />
       <recent name="lk.ijse.gdse66.dto" />
     </key>
   </component>
@@ -199,7 +202,7 @@
       <workItem from="1710219024134" duration="2542000" />
       <workItem from="1710222509770" duration="3717000" />
       <workItem from="1710295005494" duration="15016000" />
-      <workItem from="1710352051432" duration="1990000" />
+      <workItem from="1710352051432" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
@@ -409,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710353727897</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add SupplierDTO">
+      <option name="closed" value="true" />
+      <created>1710354144998</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710354144998</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,6 +452,7 @@
     <MESSAGE value="add query params" />
     <MESSAGE value="add CustomerDTO" />
     <MESSAGE value="add x-www-form-urlencoded parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add x-www-form-urlencoded parameters" />
+    <MESSAGE value="add SupplierDTO" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SupplierDTO" />
   </component>
 </project>
