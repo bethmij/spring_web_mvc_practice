@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="hello-spring-web-mvc:war exploded" />
+      <artifact name="controller-vs-restcontroller:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="config WebRootConfig">
-      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add spring beans">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/WebAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/spring/MyController1.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/spring/MyController1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/spring/MyController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/spring/MyController2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -50,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -97,9 +101,9 @@
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="hello-spring-web-mvc:war exploded">
+        <artifact name="controller-vs-restcontroller:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/spring" />
+            <option name="CONTEXT_PATH" value="/controller" />
           </settings>
         </artifact>
       </deployment>
@@ -177,7 +181,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="hello-spring-web-mvc:war exploded" />
+          <artifact name="controller-vs-restcontroller:war exploded" />
         </option>
       </method>
     </configuration>
@@ -192,7 +196,7 @@
       <updated>1710219022616</updated>
       <workItem from="1710219024134" duration="2542000" />
       <workItem from="1710222509770" duration="3717000" />
-      <workItem from="1710295005494" duration="1018000" />
+      <workItem from="1710295005494" duration="2159000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
@@ -290,7 +294,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710295822028</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add webapps">
+      <option name="closed" value="true" />
+      <created>1710296065334</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710296065334</updated>
+    </task>
+    <task id="LOCAL-00014" summary="config WebAppConfig">
+      <option name="closed" value="true" />
+      <created>1710296316525</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710296316525</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add spring beans">
+      <option name="closed" value="true" />
+      <created>1710296543199</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710296543199</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,11 +332,13 @@
     <MESSAGE value="add WebAppConfig" />
     <MESSAGE value="add WebRootConfig" />
     <MESSAGE value="add spring bean" />
-    <MESSAGE value="add webapps" />
     <MESSAGE value="add responsive servlet" />
     <MESSAGE value="refactor modules" />
     <MESSAGE value="config WebAppInitializer" />
     <MESSAGE value="config WebRootConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="config WebRootConfig" />
+    <MESSAGE value="add webapps" />
+    <MESSAGE value="config WebAppConfig" />
+    <MESSAGE value="add spring beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="add spring beans" />
   </component>
 </project>

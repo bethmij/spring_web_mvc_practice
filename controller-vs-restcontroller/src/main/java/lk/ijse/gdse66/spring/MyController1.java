@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/one")
 public class MyController1 {
 
+    public MyController1() {
+        System.out.println("MyController 1 - constructor");
+    }
+
     @GetMapping
     public String getMethod(){
         return "Received GET request";
