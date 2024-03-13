@@ -9,12 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="modify beans">
-      <change afterPath="$PROJECT_DIR$/mapping-spec/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-web-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-web-mvc/pom.xml" afterDir="false" />
+    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="config configurations">
+      <change beforePath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/MappingSpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/MappingSpecController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,9 +99,9 @@
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="controller-vs-restcontroller:war exploded">
+        <artifact name="mapping-spec:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/controller" />
+            <option name="CONTEXT_PATH" value="/mapping" />
           </settings>
         </artifact>
       </deployment>
@@ -183,7 +179,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="controller-vs-restcontroller:war exploded" />
+          <artifact name="mapping-spec:war exploded" />
         </option>
       </method>
     </configuration>
@@ -198,7 +194,7 @@
       <updated>1710219022616</updated>
       <workItem from="1710219024134" duration="2542000" />
       <workItem from="1710222509770" duration="3717000" />
-      <workItem from="1710295005494" duration="2475000" />
+      <workItem from="1710295005494" duration="2786000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
@@ -328,7 +324,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710297256997</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add Mapping spec">
+      <option name="closed" value="true" />
+      <created>1710297635101</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710297635101</updated>
+    </task>
+    <task id="LOCAL-00018" summary="config configurations">
+      <option name="closed" value="true" />
+      <created>1710297755055</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710297755055</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +362,8 @@
     <MESSAGE value="config WebAppConfig" />
     <MESSAGE value="add spring beans" />
     <MESSAGE value="modify beans" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify beans" />
+    <MESSAGE value="add Mapping spec" />
+    <MESSAGE value="config configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="config configurations" />
   </component>
 </project>
