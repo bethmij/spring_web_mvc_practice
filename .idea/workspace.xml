@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add wild card mapping">
-      <change afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/CustomerController.java" afterDir="false" />
+    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add CustomerController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/MappingSpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/MappingSpecController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/CustomerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,31 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.19.executor": "Run",
-    "Tomcat Server.Unnamed.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/bethmij/IJSE/Projects/Spring-Web-MVC-Practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bethmij/IJSE/Projects/Spring-Web-MVC-Practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -196,7 +195,8 @@
       <updated>1710219022616</updated>
       <workItem from="1710219024134" duration="2542000" />
       <workItem from="1710222509770" duration="3717000" />
-      <workItem from="1710295005494" duration="11696000" />
+      <workItem from="1710295005494" duration="15016000" />
+      <workItem from="1710352051432" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
@@ -374,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710320013468</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add CustomerController">
+      <option name="closed" value="true" />
+      <created>1710329976200</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710329976200</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +410,7 @@
     <MESSAGE value="add path mapping" />
     <MESSAGE value="add character mapping" />
     <MESSAGE value="add wild card mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="add wild card mapping" />
+    <MESSAGE value="add CustomerController" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CustomerController" />
   </component>
 </project>
