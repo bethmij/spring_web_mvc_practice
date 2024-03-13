@@ -9,7 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add character mapping">
+    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add wild card mapping">
+      <change afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/MappingSpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/MappingSpecController.java" afterDir="false" />
     </list>
@@ -195,7 +196,7 @@
       <updated>1710219022616</updated>
       <workItem from="1710219024134" duration="2542000" />
       <workItem from="1710222509770" duration="3717000" />
-      <workItem from="1710295005494" duration="7646000" />
+      <workItem from="1710295005494" duration="11696000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
@@ -365,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710298609519</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add wild card mapping">
+      <option name="closed" value="true" />
+      <created>1710320013468</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710320013468</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,6 +401,7 @@
     <MESSAGE value="add MappingSpecController" />
     <MESSAGE value="add path mapping" />
     <MESSAGE value="add character mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="add character mapping" />
+    <MESSAGE value="add wild card mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="add wild card mapping" />
   </component>
 </project>

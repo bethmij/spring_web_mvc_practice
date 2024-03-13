@@ -42,12 +42,12 @@ public class MappingSpecController {
 
 /*-------------  wild card mapping -----------------*/
 
-//    @GetMapping("/ijse/galle/*")
-////    @GetMapping("/ijse/*/galle")
-////    @GetMapping("/ijse/*/*/galle")
-//    public String getMethod6(){
-//        return "getMethod 6";
-//    }
+    @GetMapping("/ijse/galle/*")
+//    @GetMapping("/ijse/*/galle")
+//    @GetMapping("/ijse/*/*/galle")
+    public String getMethod6(){
+        return "getMethod 6";
+    }
 
     @GetMapping("/ijse/**" )
 //    @GetMapping("/ijse/**/galle")
@@ -60,5 +60,10 @@ public class MappingSpecController {
         return "getMethod 8";
     }
 
+/*------------  extension mapping -------------*/
+    @GetMapping("/noo/fgdfg*.php")
+    public String getMethod9(){
+        return "getMethod 9";
+    }
 
 }
