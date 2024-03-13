@@ -17,5 +17,16 @@ public class MappingSpecController {
         return "getMethod()";
     }
 
+/*----------------  path mapping ---------------*/
+    @GetMapping(path = "/ijse")
+    public String getMethod2(){
+        return "getMethod 2";
+    }
+
+    @GetMapping("/ijse/gdse66")
+    public String getMethod3(){
+        return "getMethod 3";
+    }
+
 
 }
