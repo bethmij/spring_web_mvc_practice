@@ -28,5 +28,16 @@ public class MappingSpecController {
         return "getMethod 3";
     }
 
+/*----------------  character mapping -----------------*/
+
+    @GetMapping("/gdse??")
+    public String getMethod4(){
+        return "getMethod 4";
+    }
+
+    @GetMapping("/gd??se66")
+    public String getMethod5(){
+        return "getMethod 5";
+    }
 
 }
