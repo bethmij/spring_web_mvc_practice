@@ -1,5 +1,6 @@
 package lk.ijse.gdse66.api;
 
+import lk.ijse.gdse66.dto.CustomerDTO;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
@@ -55,12 +56,12 @@ public class CustomerController {
 
     /* ---------- application/x-www-form-urlencoded OR query parameters ---------    */
 
-    /*@PostMapping
-    public String SaveCustomer(String id, String name, int age){
-        return String.format(
-                "SaveCustomer(String id, String name, int age): %s, %s, %s",
-                id,name,age);
-    }*/
+//    @PostMapping
+//    public String SaveCustomer(String id, String name, int age){
+//        return String.format(
+//                "SaveCustomer(String id, String name, int age): %s, %s, %s",
+//                id,name,age);
+//    }
 
     @PostMapping
     public String SaveCustomer(@ModelAttribute CustomerDTO customer){
