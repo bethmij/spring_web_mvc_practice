@@ -9,14 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="refactor modules">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/WebAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/WebAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/WebRootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="config WebRootConfig">
+      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-web-mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -197,7 +192,7 @@
       <updated>1710219022616</updated>
       <workItem from="1710219024134" duration="2542000" />
       <workItem from="1710222509770" duration="3717000" />
-      <workItem from="1710295005494" duration="682000" />
+      <workItem from="1710295005494" duration="1018000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
@@ -279,7 +274,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710229366123</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="config WebAppInitializer">
+      <option name="closed" value="true" />
+      <created>1710295757555</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710295757555</updated>
+    </task>
+    <task id="LOCAL-00012" summary="config WebRootConfig">
+      <option name="closed" value="true" />
+      <created>1710295822028</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710295822028</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +307,8 @@
     <MESSAGE value="add webapps" />
     <MESSAGE value="add responsive servlet" />
     <MESSAGE value="refactor modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor modules" />
+    <MESSAGE value="config WebAppInitializer" />
+    <MESSAGE value="config WebRootConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="config WebRootConfig" />
   </component>
 </project>
