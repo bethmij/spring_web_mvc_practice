@@ -10,6 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="refactor modules">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/WebAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/WebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller-vs-restcontroller/src/main/java/lk/ijse/gdse66/WebRootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +57,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.19.executor": "Run",
     "Tomcat Server.Unnamed.executor": "Run",
     "git-widget-placeholder": "master",
@@ -76,6 +83,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hello-spring-web-mvc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hello-spring-web-mvc" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
@@ -176,6 +196,7 @@
       <updated>1710219022616</updated>
       <workItem from="1710219024134" duration="2542000" />
       <workItem from="1710222509770" duration="3717000" />
+      <workItem from="1710295005494" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
