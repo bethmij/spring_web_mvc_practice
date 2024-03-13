@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/hello-spring-web-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/hello-spring-web-mvc/controller-vs-restcontroller/pom.xml" />
         <option value="$PROJECT_DIR$/controller-vs-restcontroller/pom.xml" />
+        <option value="$PROJECT_DIR$/mapping-spec/pom.xml" />
       </list>
     </option>
   </component>
