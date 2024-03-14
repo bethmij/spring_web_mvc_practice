@@ -30,14 +30,20 @@ public class ItemController {
         return "SaveItemUrlEncoded(): I accept only application/x-www-form-urlencoded";
     }
 
-    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
-    public String GetItemAsJson(){
-        return "GetItemAsJson()";
+//    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+//    public String GetItemAsJson(){
+//        return "GetItemAsJson()";
+//    }
+
+//    @GetMapping(produces = MediaType.APPLICATION_XML_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
+//    public String GetItemASXml(){
+//        return "GetItemsAsXml()";
+//    }
+
+    @GetMapping(headers = {"content-type=application/json","accept=application/xml"})
+    public String getItemAsXML(){
+        return "GetItemAsXML";
     }
 
-    @GetMapping(produces = MediaType.APPLICATION_XML_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public String GetItemASXml(){
-        return "GetItemsAsXml()";
-    }
 
 }

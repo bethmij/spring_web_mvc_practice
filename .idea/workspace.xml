@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8061e5-bd14-411a-bb53-4570ce0eeebc" name="Changes" comment="add SupplierDTO">
-      <change afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/SupplierController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping-spec/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-spec/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-spec/src/main/java/lk/ijse/gdse66/api/ItemController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +201,7 @@
       <workItem from="1710222509770" duration="3717000" />
       <workItem from="1710295005494" duration="15016000" />
       <workItem from="1710352051432" duration="3425000" />
+      <workItem from="1710383281564" duration="2152000" />
     </task>
     <task id="LOCAL-00001" summary="commit main">
       <option name="closed" value="true" />
